@@ -2,15 +2,15 @@
 
 This is a basic Tic Tac Toe game developed on Python. It is possible to play against an IA or against a second player.
 
-Instructions:
+## Instructions:
 
   - The board is divided in a matrix as follows:
   
-    7 | 8 | 9
-    - + - + -
-    4 | 5 | 6
-    - + - + -
-    1 | 2 | 3
+  |   |   |   |
+  |:-:|:-:|:-:|
+  | 7 | 8 | 9 |
+  | 4 | 5 | 6 |
+  | 1 | 2 | 3 |
     
   - In first place, Player 1 must state which charaters wants to use.
   
