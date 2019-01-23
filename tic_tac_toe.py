@@ -93,15 +93,15 @@ while stop == False:
     while player[0] == 0:
         print('Player 1 chooses X or O')
         sel_aux = input()
-        if sel_aux == 'X' or sel_aux == 'x':
+        if sel_aux.lower() == 'x':
             player = ['O', 'X']
-        elif sel_aux == 'O' or sel_aux == 'o':
+        elif sel_aux .lower() == 'o':
             player = ['X', 'O']
-    while sel_aux != 'Y' and sel_aux != 'y' and sel_aux != 'N' and sel_aux != 'n':
+    while sel_aux.lower() != 'y' and sel_aux.lower ()!= 'n':
         print('Is there a second player?: (Y/N)')
         print('(if not, an IA will play instead)')
         sel_aux = input()
-    if sel_aux == 'Y' or sel_aux == 'y':
+    if sel_aux.lower() == 'y':
         p2 = False
     else:
         p2 = True
@@ -154,12 +154,11 @@ while stop == False:
     print_board(board)
     
     sel_aux = ' '
-    while sel_aux != 'Y' and sel_aux != 'y' and sel_aux != 'N' and sel_aux != 'n':
+    while sel_aux.lower() != 'y' and sel_aux.lower() != 'n':
         print('Do you want to play again? (Y/N)')
         sel_aux = input()
-        if sel_aux == 'Y' or sel_aux == 'y':
+        if sel_aux.lower() == 'y':
             stop = False
         else:
             stop = True
-
 
