@@ -1,3 +1,6 @@
+#! python3
+# A Tic Tac Toe game which can be played against an IA
+
 import random
 
 # Functions
